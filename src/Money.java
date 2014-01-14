@@ -1,14 +1,14 @@
 public class Money {
 
-    private double amount;
+    private Fraction amount;
     private Currency currency;
 
-    public Money(double amount, Currency currency) {
+    public Money(Fraction amount, Currency currency) {
         this.amount = amount;
         this.currency = currency;
     }
 
-    public double getAmount() {
+    public Fraction getAmount() {
         return amount;
     }
 

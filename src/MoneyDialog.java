@@ -17,7 +17,8 @@ public class MoneyDialog {
         String amount = reader.readLine();
         System.out.println("Introduzca divisa");
         String currency = reader.readLine();
-        money = new Money (Integer.valueOf(amount), CurrencySet.getInstance().search(currency));
-        System.out.println("La cantidad es: "+ (int) money.getAmount()+ " " + money.getCurrency().getSymbol());
+        Currency[] currencies = CurrencySet.getInstance().search(currency);
+        money = new Money(new Fraction(Double.valueOf(amount)), currencies[0]);        
+        System.out.println("La cantidad es: "+ money.getAmount()+ " " + money.getCurrency().getSymbol());
     }
 }
