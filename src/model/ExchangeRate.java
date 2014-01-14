@@ -1,14 +1,18 @@
+package model;
 
+
+import model.Currency;
 import java.util.Date;
+import model.Fraction;
 
 public class ExchangeRate {
 
     private Currency source;
     private Currency target;
     private Date date;
-    private double rate;
+    private Fraction rate;
 
-    public ExchangeRate(Currency source, Currency target, Date date, double rate) {
+    public ExchangeRate(Currency source, Currency target, Date date, Fraction rate) {
         this.source = source;
         this.target = target;
         this.date = date;
@@ -27,7 +31,7 @@ public class ExchangeRate {
         return date;
     }
 
-    public double getRate() {
+    public Fraction getRate() {
         return rate;
     }
 }

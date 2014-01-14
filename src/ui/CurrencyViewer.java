@@ -1,3 +1,8 @@
+package ui;
+
+
+import model.Currency;
+
 
 public class CurrencyViewer {
     

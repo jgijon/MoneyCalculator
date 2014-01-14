@@ -1,4 +1,7 @@
 
+import ui.MoneyDialog;
+import model.Fraction;
+import model.Money;
 import java.io.IOException;
 
 public class Main {
@@ -25,7 +28,7 @@ public class Main {
         prueba1.showFraction();
         System.out.println((double)prueba1.getNumerator()/prueba1.getDenominator());
         
-        CurrencySetLoader.getInstance().load();
+        //FileCurrencySetLoader.load();
         MoneyDialog dialog = new MoneyDialog();
         dialog.execute();
         Money money = dialog.getMoney();

@@ -1,4 +1,10 @@
+package ui;
 
+
+import model.Currency;
+import model.Fraction;
+import model.CurrencySet;
+import model.Money;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
