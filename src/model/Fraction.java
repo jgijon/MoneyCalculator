@@ -9,6 +9,10 @@ public class Fraction {
         this.numerator = numerator;
         this.denominator = denominator;
     }
+    
+    public Fraction (int number) {
+        this(number,1);
+    }
 
     public Fraction() {
         this.numerator = 0;

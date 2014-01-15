@@ -1,9 +1,6 @@
 package model;
 
-
-import model.Currency;
 import java.util.Date;
-import model.Fraction;
 
 public class ExchangeRate {
 
