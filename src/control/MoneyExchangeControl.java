@@ -1,21 +1,22 @@
 package control;
 
 
+import model.MoneyExchanger;
 import java.io.IOException;
 import model.Currency;
 import model.ExchangeRate;
 import model.Money;
 import persistence.ExchangeRateLoader;
-import ui.ConsoleCurrencyDialog;
-import ui.ConsoleMoneyDialog;
-import ui.ConsoleMoneyViewer;
+import ui.console.ConsoleCurrencyDialog;
+import ui.console.ConsoleMoneyDialog;
+import ui.console.ConsoleMoneyViewer;
 
 public class MoneyExchangeControl {
     
-    private ConsoleMoneyDialog moneyDialog;
-    private ConsoleCurrencyDialog currencyDialog;
-    private ConsoleMoneyViewer moneyViewer;
-    private ExchangeRateLoader exchangeRateLoader;
+    private final ConsoleMoneyDialog moneyDialog;
+    private final ConsoleCurrencyDialog currencyDialog;
+    private final ConsoleMoneyViewer moneyViewer;
+    private final ExchangeRateLoader exchangeRateLoader;
     
     public MoneyExchangeControl (ConsoleMoneyDialog moneyDialog,
                                 ConsoleCurrencyDialog currencyDialog,

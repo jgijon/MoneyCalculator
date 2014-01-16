@@ -1,4 +1,4 @@
-package control;
+package model;
 
 import model.ExchangeRate;
 import model.Money;

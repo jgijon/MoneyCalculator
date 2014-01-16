@@ -1,4 +1,4 @@
-package ui;
+package ui.console;
 
 
 import java.io.BufferedReader;
@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import model.Currency;
 import model.CurrencySet;
+import ui.CurrencyDialog;
 import ui.CurrencyDialog;
 
 
