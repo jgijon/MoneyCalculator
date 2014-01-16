@@ -22,17 +22,6 @@ public class Fraction {
     public Fraction(double value){
         this.numerator = (int) (value * 10 * Double.toString(value).split("\\.")[1].length());
         this.denominator = 10 * Double.toString(value).split("\\.")[1].length();
-//        int myNumber = 0;
-//        int index = 0;
-//        while (value != 0){
-//            myNumber = (int) Math.floor(value) + myNumber * 10;
-//            value -= Math.floor(value);
-//            value *= 10;
-//            index++;
-//            if (index == 7) break;
-//        }
-//        numerator = myNumber;
-//        denominator = (int) Math.pow(10,index-1);
           
     }
 

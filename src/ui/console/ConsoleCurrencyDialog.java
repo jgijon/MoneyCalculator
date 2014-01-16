@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 import model.Currency;
 import model.CurrencySet;
 import ui.CurrencyDialog;
-import ui.CurrencyDialog;
 
 
 public class ConsoleCurrencyDialog implements CurrencyDialog{

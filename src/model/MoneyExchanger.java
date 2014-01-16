@@ -1,8 +1,5 @@
 package model;
 
-import model.ExchangeRate;
-import model.Money;
-
 public class MoneyExchanger {
     
     public static Money exchange(Money money, ExchangeRate rate){

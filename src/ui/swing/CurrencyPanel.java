@@ -9,7 +9,6 @@ import model.CurrencySet;
 import ui.CurrencyDialog;
 
 public class CurrencyPanel extends JPanel implements CurrencyDialog{
-    //private static String[] currencies = {"EUR", "USD", "CAD", "GBP"};
 
     private Currency currency;
     

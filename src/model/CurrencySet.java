@@ -18,7 +18,6 @@ public class CurrencySet extends HashSet<Currency>{
     }
     
     public Currency[] search(String token){
-        //CurrencySet set = CurrencySet.getInstance();
         ArrayList<Currency> list = new ArrayList<>();
         
         for (Currency currency : this){
